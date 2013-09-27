@@ -1,0 +1,11 @@
+<New id="myds" class="org.eclipse.jetty.plus.jndi.Resource">
+	<Arg></Arg>
+	<Arg>jdbc/mydatasource</Arg>
+	<Arg>
+		<New class="org.hsqldb.jdbc.JDBCDataSource">
+			<Set name="DatabaseName">mem:testdb</Set>
+			<Set name="User">SA</Set>
+			<Set name="Password"></Set>
+		</New>
+	</Arg>
+</New>

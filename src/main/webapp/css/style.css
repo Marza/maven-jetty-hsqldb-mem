@@ -1,0 +1,12 @@
+body {
+	background-color: #563d7c;
+}
+
+.container {
+	background-color: #fff;
+	max-width: 750px;
+}
+
+.heading-page {
+	font-weight: bold;
+}
