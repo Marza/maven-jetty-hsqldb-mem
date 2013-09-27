@@ -20,6 +20,16 @@ I have added a simple servlet which renders a JSP file and stubbed a simple data
 You have access to the full power of JPA/EntityManager or you can use EclipseLink/JDBC directly your choice.
 
 
+Why?
+---
+
+First I had some problems getting both HSQLDB and Jetty to run in memory and working together 
+but then I came up with this solution which works fine for me and might be of use to someone else. 
+
+This can be used as a easy way to bootstrap development and testing or use as a template for 
+building a small application to use in a recruitment process.
+
+
 Setup
 ---
 
