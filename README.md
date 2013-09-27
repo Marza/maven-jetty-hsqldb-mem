@@ -3,6 +3,12 @@ maven-jetty-hsqldb-mem
 
 Run Jetty 9.0.5 and HSQLDB 2.3.0 in memory from Maven.
 
+Incluces:
+* EclipseLink 2.5.0
+* Servlet API 3.0
+* JSP support including JSTL
+* JPA 2.1
+
 How this works and usage
 ---
 
