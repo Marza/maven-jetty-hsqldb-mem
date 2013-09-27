@@ -1,7 +1,7 @@
 maven-jetty-hsqldb-mem
 ======================
 
-Start Jetty 9.0.5 and HSQLDB 2.3.0 in memory from Maven.
+Run Jetty 9.0.5 and HSQLDB 2.3.0 in memory from Maven.
 
 Setup
 ---
