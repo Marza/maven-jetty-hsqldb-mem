@@ -3,6 +3,17 @@ maven-jetty-hsqldb-mem
 
 Run Jetty 9.0.5 and HSQLDB 2.3.0 in memory from Maven.
 
+How this works and usage
+---
+
+In the Maven lifecycle it will compile a .war file and then the exec-maven-plugin will 
+run App.java which bootstraps the HSQLDB and Jetty and deploys the .war file to Jetty.
+Potentially you can use any type of web framework, servlets, filters etc that works on Jetty.
+
+I have added a simple servlet which renders a JSP file and stubbed a simple database entity. 
+You have access to the full power of JPA/EntityManager or you can use EclipseLink/JDBC directly your choice.
+
+
 Setup
 ---
 
